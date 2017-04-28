@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6AA1A994-196F-4757-A6A7-79591432AB52}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B9F1C66E-5B1A-446A-BC2F-9A37353E4BFC}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CodeCamp", "src\CodeCamp\CodeCamp.xproj", "{DA88DD2E-254A-4F31-BC83-A0050DE67086}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA88DD2E-254A-4F31-BC83-A0050DE67086}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA88DD2E-254A-4F31-BC83-A0050DE67086}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA88DD2E-254A-4F31-BC83-A0050DE67086}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA88DD2E-254A-4F31-BC83-A0050DE67086}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DA88DD2E-254A-4F31-BC83-A0050DE67086} = {6AA1A994-196F-4757-A6A7-79591432AB52}
+	EndGlobalSection
+EndGlobal
